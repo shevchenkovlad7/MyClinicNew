@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>MyClinic</display-name>
+
+    <servlet>
+        <servlet-name>ClinicViewServlet</servlet-name>
+        <servlet-class>servlets.ClinicViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClinicViewServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
